@@ -1,0 +1,117 @@
+.main {
+  background-image: url("../../../../src/images/simple-background-wallpaper-preview.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vmin;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: fixed;
+  height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  color: black;
+  padding-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1vmax;
+
+
+}
+.head11{
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.4vmax;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+  width: 15vmax;
+  padding: 0.8vmax;
+  margin: 3vmax auto;
+  color: rgba(239, 243, 229, 0.699);
+}
+.para{
+  font-size: 1.2vmax;
+  color: rgb(211, 80, 112);
+}
+.span{
+  color: orange; 
+  font-size: 30px;
+  font-style: italic;
+}
+.aStyle{
+  color: blue;
+  cursor: pointer;
+}
+.aStyle1{
+  color:darkviolet;
+  cursor: pointer;
+}
+.OurTeam{
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.4vmax;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+  width: 20vmax;
+  padding: 1vmax;
+  margin: 3vmax auto;
+  color: rgba(239, 243, 229, 0.699);
+}
+.row1{
+  display: flex;
+    margin: 2vmax auto;
+    width: 80vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+}
+.column1 {
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+.container1 {
+background-image: linear-gradient(orange,white);
+padding: 0 16px;
+}
+.nametitle{
+  color: rgb(61, 9, 9);
+}
+
+.container1::after, .row1::after {
+ content: "";
+ clear: both;
+ display: table;
+
+}
+.title1 {
+  color: maroon;
+}
+.mail{
+  color: rgb(18, 19, 19);
+}
+@media screen and (max-width: 650px) {
+  .row1{
+    display: flex;
+      margin: 2vmax auto;
+      width: 80vw;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 100%;
+  }
+  .column1 {
+    width: 100%;
+    display: block;
+  }
+}
